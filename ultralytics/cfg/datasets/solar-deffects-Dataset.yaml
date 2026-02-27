@@ -1,0 +1,10 @@
+# COCO8 dataset which is available on https://universe.roboflow.com/airotor-q9whk/solar-deffects
+
+path: E:/MachineLearning/datasets/YOLO # dataset root dir. I prefer to use absolute PATH. it's up to you, however.
+train: solar_deffects_yolov11/train # train images (relative to 'path') 8391 images
+val: solar_deffects_yolov11/valid # val images (relative to 'path') 500 images
+test: solar_deffects_yolov11/test # test images (optional) 926 images
+
+# Classes
+names:
+  0: Anomaly
